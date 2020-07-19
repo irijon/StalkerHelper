@@ -1,6 +1,6 @@
 import React from 'react';
 import './Select_item.css'
-
+import Take from '../Take'
 const Select_item = (props) => {
   let i = -1;
 const params = (props.params).map((param) => (i++, (props.values[i] == '' ? <span className="select_hide"></span> : <tr><td className="select_table_space"></td><td>{param}</td><td className="select_table_space"></td><td className="select_table_space"></td><td>{props.values[i]}</td></tr>)));
@@ -22,7 +22,7 @@ const params = (props.params).map((param) => (i++, (props.values[i] == '' ? <spa
         </div>
       </div>
       <div className="select_item_btn">
-        <button>Take this</button>
+        <button onClick="Take()">Take this</button>
       </div>
     </div>
     );
