@@ -16,19 +16,19 @@ const Character = () => {
             </div>
             <div className="Character_artefacts">
                 <div className="artefact_1">
-                <Item img="Грави" btn="character/artefacts_select" />
+                <Item img="Грави" btn="character/artefacts_select/1" />
                 </div>
                 <div className="artefact_2">
-                <Item img="Кристалл" btn="character/artefacts_select" />
+                <Item img="Кристалл" btn="character/artefacts_select/2" />
                 </div>
                 <div className="artefact_3">
-                <Item img="Медуза" btn="character/artefacts_select" />
+                <Item img="Медуза" btn="character/artefacts_select/3" />
                 </div>
                 <div className="artefact_4">
-                <Item img="Ночная_звезда" btn="character/artefacts_select" />
+                <Item img="Ночная_звезда" btn="character/artefacts_select/4" />
                 </div>
                 <div className="artefact_5">
-                <Item img="Слизняк" btn="character/artefacts_select" />
+                <Item img="Слизняк" btn="character/artefacts_select/5" />
                 </div>      
             </div>     
         </div>

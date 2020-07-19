@@ -2,7 +2,8 @@ import React from 'react';
 import './Artefacts_select.css'
 import Select_item from '../Select_item';
 
-const Artefacts_select = () => {
+const Artefacts_select = (props) => {
+    alert(props.slot)
     const params = ['Здоровье', 'Выносливость', 'Удар', 'Разрыв', 'Пулестойкость', 'Электрошок', 'Кровотечение', 'Ожог', 'Хим. ожог', 'Радиация', 'Стоимость'];
     const values_1 = ['', '+36', '', '', '', '10', '', '', '', '', '1000'];
     const values_2 = ['', '+73', '', '', '', '10', '', '', '', '', '2500'];
